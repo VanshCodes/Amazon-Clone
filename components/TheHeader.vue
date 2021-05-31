@@ -9,9 +9,10 @@
         :alt="alt"
       />
     </div>
-    <div class="flex h-8">
+
+    <div class="flex h-8 mx-2 bg-yellow-400 hover:bg-yellow-500">
       <input type="text" />
-      <SearchIcon class="h-4 p-4 text-white" />
+      <SearchIcon width="34px" class="text-black my-1" />
     </div>
   </div>
 </template>

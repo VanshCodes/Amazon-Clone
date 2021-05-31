@@ -1,7 +1,7 @@
 <template>
   <div>
     <the-header />
-    <SearchIcon class="text-white" />
+    <SearchIcon class="" />
   </div>
 </template>
 
