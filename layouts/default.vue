@@ -6,6 +6,7 @@
 
 <script>
 import "@/assets/global.css"
+export default {}
 </script>
 
 <style>
