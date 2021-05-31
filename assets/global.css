@@ -1,0 +1,9 @@
+/* ./assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .link {
+    @apply cursor-pointer hover:underline;
+  }
+}

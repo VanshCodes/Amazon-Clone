@@ -1,15 +1,13 @@
 <template>
   <div>
     <the-header />
-    <SearchIcon class="" />
   </div>
 </template>
 
 <script>
-import { SearchIcon } from "@vue-hero-icons/outline";
 import TheHeader from "~/components/TheHeader.vue";
 export default {
-  components: { TheHeader, SearchIcon },
+  components: { TheHeader, },
 };
 </script>
 

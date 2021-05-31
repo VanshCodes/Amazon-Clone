@@ -4,7 +4,12 @@
   </div>
 </template>
 
+<script>
+import "@/assets/global.css"
+</script>
+
 <style>
+
 html {
   font-family:
     'Source Sans Pro',
