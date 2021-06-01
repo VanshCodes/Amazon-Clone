@@ -1,13 +1,16 @@
 <template>
   <div>
     <the-header />
+    <Banner />
   </div>
 </template>
 
 <script>
+import Banner from "~/components/banner.vue";
 import TheHeader from "~/components/TheHeader.vue";
+
 export default {
-  components: { TheHeader, },
+  components: { TheHeader, Banner },
 };
 </script>
 
