@@ -6,6 +6,7 @@
     "dev": "nuxt --hostname 0.0.0.0",
     "build": "nuxt build",
     "start": "nuxt start",
+    "gitpod": "npm run dev -- --public '$(gp url 3000 | sed 's+https://++'):443'",
     "generate": "nuxt generate"
   },
   "dependencies": {
