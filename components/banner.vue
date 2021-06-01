@@ -1,10 +1,7 @@
 <template>
   <div>
     <VueSlickCarousel :settings="settings">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
+      <img class="w-10 object-contain" :key="i" v-for="i in Array(4)" src="https://images-eu.ssl-images-amazon.com/images/G/31/Gateway/Zeitgeist/Mar20/Covid19/2021/IN_GWD_Covid19_CustomerMsg_MH_ENG_1x_v1._CB669806110_.jpg" alt="">
     </VueSlickCarousel>
   </div>
 </template>

@@ -1,6 +1,6 @@
 export const Header = {
   logo: {
-    src: "https://archive.org/download/amazon-2/amazon_PNG11.png",
+    src: "https://ia801503.us.archive.org/3/items/amazon-2/amazon_PNG11.png",
     alt: "Amazon Logo"
   }
 };
