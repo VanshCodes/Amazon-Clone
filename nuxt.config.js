@@ -9,9 +9,10 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" }
+      { hid: "description", name: "description", content: "" },
+      { "http-equiv": "content-type", "content": "text/html", charset: "utf-8" }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    // link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -24,9 +25,9 @@ export default {
   components: false,
   watchers: {
     webpack: {
-    ignored: "./node_modules/",
-  }
-},
+      ignored: "./node_modules/",
+    }
+  },
 
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
@@ -47,6 +48,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    
+
   }
 };

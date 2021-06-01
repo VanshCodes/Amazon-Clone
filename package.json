@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt --hostname 0.0.0.0",
+    "dev": "nuxt --port 8080",
     "build": "nuxt build",
     "start": "nuxt start",
-    "gitpod": "npm run dev -- --public '$(gp url 3000 | sed 's+https://++'):443'",
+    "gitpod": "npm run dev -- --public '$(gp url 8080 | sed 's+https://++'):443'",
     "generate": "nuxt generate"
   },
   "dependencies": {
